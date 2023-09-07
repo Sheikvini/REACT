@@ -1,0 +1,87 @@
+section{    
+    color: #fff;
+    .pagina-lista-tarefa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+        background-color: rgb(2, 2, 2);
+        font-size: 30px;
+
+        .voltar {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 18px;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        input {
+            font-size: 22px;
+            padding: 5px;
+            margin: 5px;
+            background-color: #000000;
+            color: #ffffff;
+            border: solid 1px #5f23b4;
+            border-radius: 10px;
+        }
+
+
+        button {
+            background-color: rgb(146, 29, 196);
+            
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 22px;
+            padding: 7px 15px;
+        }
+
+        button:hover {
+            background-color: #5f23b4;
+        }
+
+
+
+        .container {
+            background-color: #000000;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 1px #5f23b4;
+
+            margin-top: -100px;
+            padding: 70px 70px;
+        }
+
+        .container > div {
+            margin: 35px 0px;
+        }
+
+        .container ul {
+            height: 200px;
+            overflow: auto;
+        }
+
+        
+        .container ul::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        .container ul::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        
+        .container ul::-webkit-scrollbar-thumb {
+            background-color: rgb(133, 133, 133);
+            border-radius: 40px;
+        }
+        
+
+
+    }
+
+}    

@@ -1,0 +1,182 @@
+.netflix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .sessao {
+        width: 100%;
+        height: 90vh;
+        background-image: url("../../../public/assets/images/imagem.png ");
+        background-repeat: no-repeat;
+        background-size: 2310px 1000px;
+        box-shadow: 20px 20px 20px black;
+
+
+        header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 200px;
+
+
+
+
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+
+                img {
+                    margin: 20px;
+                    color: white;
+                }
+
+                h1 {
+                    margin-right: 50px;
+                    color: white;
+                }
+
+                h2 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin: 15px;
+                    color: white;
+                }
+
+                nav {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+
+
+                    div {
+                        border: 2px solid white;
+                        height: 35px;
+                        margin: 15px;
+
+
+                        button {
+                            outline: 0;
+                            background: none;
+                            border: 0;
+                        }
+
+
+
+                        input {
+                            background: none;
+                            border: none;
+                            outline: 0;
+                            box-shadow: 0 0 0 0;
+                            margin-left: 15px;
+
+                        }
+
+
+                    }
+
+                    h3 {
+                        color: white;
+                        font-size: 14px;
+                        font-weight: 400;
+
+                    }
+                }
+
+            }
+
+
+
+
+        }
+
+        aside {
+            display: contents;
+            flex-direction: column;
+            align-self: flex-start;
+            justify-content: flex-start;
+
+
+
+
+            h1 {
+                color: white !important;
+                font-size: 45px;
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+
+            p {
+                color: white;
+                width: 400px;
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+
+            button {
+                padding: 10px 40px;
+                font-size: 14px;
+                font-weight: 500;
+                border-radius: 10px;
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+
+
+
+        }
+
+
+
+    }
+
+    .filmes {
+        
+        min-height: 90vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.945);
+        
+
+
+        table>thead>tr>th {
+            color: rgb(255, 255, 255);
+            font-size: 26px;
+            position: absolute;
+            bottom: 410px;
+            left: 100px;
+
+        }
+
+        .filme {
+            height: 400px;
+            width: 280px;
+            margin-top: 50px;
+            position: relative;
+            bottom: 130px;
+                
+        }
+
+        tbody {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            tr {
+                position: relative;
+                top: 40px;
+                width: 350px;
+
+            }
+        }
+    }
+
+
+}

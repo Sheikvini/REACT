@@ -1,0 +1,71 @@
+.comp-marvel {
+    width: 238px;
+    height: 276px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px #5A5A5A75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+
+
+        img {
+            width: 150px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: #66676A;
+
+            font: 800 22px 'arial';
+        }
+
+        h2 {
+            color: #595959;
+            font: 500 14px 'arial';
+            display: none;
+            width: 240px;
+        }
+
+
+    }
+
+
+
+
+
+}
+
+.comp-marvel:hover {
+    width: 288px;
+    height: 326px;
+
+    div {
+
+        img {
+            width: 200px;
+            position: relative;
+            bottom: 5px;
+            border-radius: 15px;
+        }
+
+        h2 {
+            display: flex;
+            height: 50px;
+            overflow-y: auto;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+    }
+}

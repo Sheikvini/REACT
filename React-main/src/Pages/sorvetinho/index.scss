@@ -1,0 +1,158 @@
+.pagina-carro {
+
+
+
+    header {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        height: 15vh;
+        margin-left: 30px;
+        background-color: #fff;
+
+        h1 {
+            font-size: 18px;
+            color: #C2C2C2;
+            margin-left: 10px;
+        }
+    }
+
+    aside {
+        background-color: #F5F6FA;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        section {
+            background-color: #fff;
+            width: 495px;
+            height: 498px;
+
+            .logo {
+                h3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    background-color: #66344A;
+                    width: 133px;
+                    height: 36px;
+                    text-align: center;
+                    color: #fff;
+                    position: relative;
+                    bottom: 45px;
+                    left: 5px;
+                    border-radius: 3px;
+                }
+            }
+
+            .compras {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+
+                .novo-item {
+                    h2 {
+                        color: #646464;
+                        font-size: 18px;
+                        font-weight: 600px;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                .inp1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    input {
+                        width: 130px;
+                        height: 38px;
+                        border: 1px solid #DFDFDF;
+                        border-radius: 1px;
+                    }
+
+                    h3 {
+                        margin-left: 20px;
+                        border: 1px solid #DFDFDF;
+                        width: 40px;
+                        height: 38px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #888888;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: row;
+                        border-radius: 3px;
+
+
+                    }
+
+                    button {
+                        width: 85px;
+                        height: 36px;
+                        background-color: #8A4A66;
+                        color: #fff;
+                        margin-left: 10px;
+                        border: none;
+                        border-radius: 3px;
+                    }
+                }
+
+                .tabela {
+
+                    margin-top: 30px;
+
+                    .compras {
+                        display: flex;
+                        flex-direction: row;
+
+                        h3,
+                        h2 {
+                            margin: 0px 70px;
+                            font-size: 18px;
+                            color: #646464;
+                            font-weight: 600;
+                        }
+
+                        h2 {
+                            width: 155px !important;
+                            
+                        }
+
+                        h3{
+                            width: 110px !important;  
+                        }
+                    }
+
+                    .produtos {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top:10px ;
+                        
+    
+                        table tbody div {
+                            width: 428px;
+                           border: 1px solid #646464;
+                           display: flex;
+                           flex-direction: row;
+                           justify-content: space-between;
+                           padding: 10px;
+                            
+                        }
+
+                        table tbody td{
+                            color:#888888;
+                        }
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}

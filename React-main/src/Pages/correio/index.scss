@@ -1,0 +1,73 @@
+    .pagina-correio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        font-size: 30px;
+
+        .voltar {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 18px;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        input {
+            font-size: 22px;
+            padding: 5px;
+            margin: 5px;
+            background-color: #000000;
+            border-radius: 10px;
+            border: solid 1px #5f23b4;
+            color: #fff;
+        }
+
+
+        button {
+            background-color: rgb(146, 29, 196);
+            border-radius: 10px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+
+            color: #fff;
+            font-size: 22px;
+            padding: 7px 15px;
+        }
+
+        button:hover {
+            background-color: rgb(113, 29, 196);
+        }
+
+
+
+        .container {
+            background-color: #000000;
+            border-radius: 20px;
+            box-shadow: 0px 0px 8px 1px #5f23b4;
+
+
+            padding: 50px 50px;
+        }
+
+        .container > div {
+            margin: 35px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .container > h1{
+            text-align:center ;
+        }
+
+
+    }
+    

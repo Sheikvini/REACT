@@ -1,0 +1,148 @@
+.marvel{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(180deg, #8BA9BE 61.98%, rgba(0, 0, 0, 0.40) 100%), #8BA9BE;
+    
+
+    header{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                margin: 20px;
+            }
+
+            
+            img{
+                margin: 20px;
+            }
+
+        }
+
+        
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1{
+                font-size: 54px;
+                width: 350px;
+                font-weight: 800;
+                color:  #43515A;
+                margin: 50px;
+                text-align: right;
+
+            }
+
+            p{
+                width: 400px;
+            }
+
+            
+        }
+        .aside{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: 80px;
+
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: rgba(255, 255, 255, 0.575);
+                padding: 5px 10px;
+                border-radius: 15px;
+                margin: 20px;
+
+                input{
+                    outline: 0;
+                    background: none;
+                    border: none;
+                    font: 500 15px 'arial';
+                    color: 
+                    #646464;
+                }
+
+                button{
+                    background-color: transparent;
+                    border: none;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 47.7vh;
+      
+      
+      .herois {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+        width: 1600px; 
+        overflow-x: auto; 
+        overflow-y: hidden;
+      }
+      
+      .herois > div {
+        min-width: 200px; 
+        padding: 10px;
+        margin: 5px;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #f0141e;
+        border-radius: 15px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #f0141e;
+      }
+      
+      ::-webkit-scrollbar-thumb-horizontal {
+        background-color: #f0141e;
+        border-radius: 5px;
+      }
+      
+      ::-webkit-scrollbar-thumb-horizontal:hover {
+        background-color: #f0141e;
+      }
+      
+    }
+}

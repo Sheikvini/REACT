@@ -1,0 +1,148 @@
+.pagina-juros {
+
+    background-color: rgb(226, 226, 226);
+    height: 46.9vw;
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #746A6A;
+        font: 15px arial;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10vh;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-bottom: 80px;
+
+
+        p {
+            font: 15px arial;
+            color: darkgray;
+        }
+
+        img {
+            width: 36px;
+            margin-right: 15px;
+        }
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .carro {
+            background-color: rgb(175, 175, 175);
+            height: 28vw;
+            width: 25vw;
+            border-radius: 8px 0px 0px 8px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 18vw;
+            }
+        }
+    }
+
+    .pc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 0px 8px 8px 0px;
+        height: 28vw;
+        width: 25vw;
+        background-color: rgb(255, 255, 255);
+
+        .vl {
+
+            p {
+                font-size: 16px;
+                font-weight: 600;
+                color: #646464;
+                margin-bottom: 5px;
+            }
+
+            input {
+                width: 296px;
+                height: 38px;
+                border: 1px solid #DFDFDF;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        .pj {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            div {
+                input {
+                    width: 125px;
+                    height:37px;
+                    border: 1px solid #DFDFDF;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #646464;
+                    margin-bottom: 5px;
+                }
+
+                #p1{
+                    height: 38px !important;
+                    width: 149px !important;
+                }
+            }
+        }
+
+        .botao {
+            padding: 20px;
+
+            button {
+                background-color: rgb(0, 115, 255);
+                padding: 10px 112px;
+                border-radius: 3px;
+                color: aliceblue;
+                border: none;
+            }
+        }
+
+        .r{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+                
+            .footer {
+                display: flex;
+                justify-content: flex-start;
+                gap: 50px;
+
+                
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #646464;
+                    margin-bottom: 2px;   
+                
+            }
+
+           
+
+    }
+}
+}

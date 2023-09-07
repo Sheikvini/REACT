@@ -1,0 +1,35 @@
+.comp-pokemon{
+    width: 215px;
+    height: 255px;
+    background-color: rgba(149, 206, 196, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+       div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 120px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 100%;
+        }
+
+        h1{
+           color: rgba(57, 68, 66, 1);
+           font: 700 18px 'arial'; 
+        }
+
+        h2{
+            color: rgba(56, 56, 56, 1);
+            font: 500 12px 'arial';
+        }
+       }
+}

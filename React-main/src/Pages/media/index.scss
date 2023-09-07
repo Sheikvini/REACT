@@ -1,0 +1,43 @@
+.pagina-media {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+   
+    .media-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 100px;
+        background-color: #000000;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px 1px #5f23b4;
+        
+        input{
+            background-color: #000000;
+            color: #fff;
+            border: solid 1px #5f23b4;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        button{
+            background-color: #5f23b4;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            
+        }
+
+    }
+
+    
+}
