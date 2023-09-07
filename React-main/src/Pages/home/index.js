@@ -9,7 +9,7 @@ function App() {
   return (
     <section>
 
-    
+    <Header/>
 
     <div className='pagina-home'>
 
